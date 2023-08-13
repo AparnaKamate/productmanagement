@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+			background-color: #f4f4f4;
+			/* margin-left: 20px; */
+            /* padding: 10px; */
+            /* margin-bottom: 20px; */
+            /* margin-top: 50px; */
+            /* margin-left: 50px; */
+            border: 3px solid pink;
+        }
+        
+        div{
+            
+           
+            background-color: rgb(114, 179, 206); 
+            text-align:center; 
+             
+             padding: 80px;
+             /* border: 3px solid pink; */
+                } 
+            
+           
+
+        
+        h2{
+            text-align: center;
+        }
+        form{
+            text-align: left;
+        }
+        
+        input[type=text], input[type=email], input[type=tel], select {
+			width: 100%;
+			padding: 10px;
+			/* border-radius: 5px; */
+			border: none;
+			margin-bottom: 20px;
+			box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+        }
+        tr{
+            width: 100%;
+			padding: 10px;
+			/* border-radius: 5px; */
+			border: none;
+			margin-bottom: 20px;
+			
+        }
+        input[type=password], input[type=password], input[type=tel], select { 
+        
+			width: 100%;
+			padding: 10px;
+			/* border-radius: 5px;  */
+			border: none;
+			margin-bottom: 20px;
+			
+        }
+        input[type=submit], input[type=Register], input[type=tel], select { 
+        
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        /* border-radius: 5px; */
+        border: none;
+        margin-bottom: 20px;
+        text-align: center;
+       
+    }
+    #Course{
+            background-color:white;
+            text-align: left;
+    }
+    
+    
+    </style>
+</head>
+<body>
+    
+    <div>
+        <h2>Student Registeration Form</h2>
+        <hr>
+        <form>
+            Firstname:<br>
+            <input type="text" name="First_Name" placeholder="Firstname"><br><br>
+            Middlename:<br>
+            <input type="text" name="First_Name" placeholder="Middlename"><br><br>
+            Lastname:<br>
+            <input type="text" name="First_Name" placeholder="Lastname"><br><br>
+            <label for="Course">Course:</label>
+        <select name="Course" id="Course">
+            <option value="Html">Html</option>
+            <option value="Javascript">Javascript</option>
+            <option value="Css">Css</option>
+            <option value="Full Stack Developer">Full Stack Developer</option>
+            <option value="Python">Python</option>
+        </select><br>
+        Gender:<br>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="Other">
+        <label for="Other">Other</label><br>
+        <tr >
+            <td>Phone:</td><br>
+            <td>
+            <input type="text" name="Mobile_Number"placeholder="+91" maxlength="10" /><br><br>
+            <input type="text" name="Mobile_Number"placeholder="Phone no" maxlength="10" /><br>
+            </td>
+            </tr>
+            <br>
+            Current Address:
+            
+            <textarea rows="5" cols="50" name=""id="" placeholder="Current Address"></textarea>
+            <br>
+            <label for="EMAIL ">Email :</label><br>
+            <input type="text" name="Email " id="Email " placeholder="Enter Email">
+            <br>
+            <label for="password">Password:
+            </label><br>
+            <input type="password" name="password"id="password" placeholder="Enter Password"><br>
+            <label for="Re-type password">Re-type Password:
+            </label><br>
+            <input type="password" placeholder="Retype password" id="confirm_password" required>
+        
+            <br>
+            
+            
+		<input type ="submit" value="Register"placeholder="Register">
+        
+
+                
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
+
